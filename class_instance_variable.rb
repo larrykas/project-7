@@ -23,7 +23,7 @@ class Movie
     puts "This movie is #{duration} minutes long." 
   end
 end
-Movie.time() # returns 'This movie is 180 minutes long
+Movie.time(240) # returns 'This movie is 180 minutes long
 ####################################################
 # instance method Number: 2
 ####################################################
@@ -33,4 +33,4 @@ class Movie
   end
 end
 
-Movie.new.time() # "instance method"
+Movie.new.time # "instance method"
